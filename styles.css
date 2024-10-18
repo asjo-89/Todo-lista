@@ -24,7 +24,8 @@ body {
 
 .container {
     width: 90svw;
-    height: 80svh;
+    max-width: 400px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -81,6 +82,7 @@ body {
         border-radius: .5rem;
         background-color: rgb(146, 151, 124);
         box-shadow: 0 0 3px 3px rgba(39, 30, 27, 0.222);
+        overflow-y: auto;
     }
 }
     
