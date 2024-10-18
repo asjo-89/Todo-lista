@@ -25,13 +25,12 @@ body {
 .container {
     width: 90svw;
     max-width: 400px;
-    height: 200px;
+    height: 80svh;
     display: flex;
     flex-direction: column;
     gap: .5rem;
     padding: 1rem;
     border-radius: .6rem;
-    /* background-color: rgba(141, 104, 93, 0.945); */
     background-color: rgba(88, 58, 49, 0.918);
     box-shadow: 0 0 10px 10px rgba(39, 30, 27, 0.623);
 
