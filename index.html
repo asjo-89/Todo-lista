@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online ToDo-list</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="preload" href="/images/plants.jpg" as="image"> -->
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+            <form id="form">
+                <input type="text" id="input" class="input" placeholder="Enter text here..." pseudo="-webkit-input-placeholder">
+                <button class="btn-done">Done</button>
+                <p id="invalid-input" class="invalid-input">The field can't be empty.</p>
+            </form>
+
+            <div class="list">
+                <ul id="list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
